@@ -1,0 +1,286 @@
+.content {
+    padding: 20px 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.mainImage img {
+    width: 30vw;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.extraImage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.extraImage img {
+    width: 140px;
+}
+
+.extraImage img:hover {
+    opacity: 0.7;
+}
+
+.info {
+    width: 100%;
+}
+
+.info h1 {
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+}
+
+.info p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.info p:nth-of-type(4) {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.icons {
+    display: flex;
+    gap: 5px;
+}
+
+.container_modal {
+    text-align: center;
+    min-width: 600px;
+}
+
+.container_modal h1 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container_modal button {
+    padding: 10px 50px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container_modal button:first-child {
+    border: 0;
+    background-color: #229799;
+    color: #fff;
+}
+
+.container_modal button:last-child {
+    border: 0;
+    border: 1px solid #229799;
+    background-color: #fff;
+    color: #229799;
+}
+
+@media(max-width: 1970px) {
+    .extraImage img {
+        width: 120px;
+    }
+}
+
+@media(max-width: 1670px) {
+    .extraImage img {
+        width: 100px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .extraImage img {
+        width: 80px;
+    }
+
+    .info h1 {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+    
+    .info h2 {
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+    }
+    
+    .info p {
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    .icons {
+        width: 50px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .extraImage img {
+        width: 70px;
+    }
+
+    .info h1 {
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+    
+    .info h2 {
+        margin-bottom: 15px;
+        font-size: 1.1rem;
+    }
+    
+    .info p {
+        margin-bottom: 10px;
+        text-align: justify;
+        font-size: .8rem;
+    }
+
+    .icons {
+        width: 50px;
+    }
+
+    .info p:nth-of-type(4) {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 970px) {
+    .mainImage img {
+        width: 40vw;
+    }
+
+    .extraImage img {
+        width: 80px;
+    }
+}
+
+@media(max-width: 830px) {
+    .extraImage img {
+        width: 70px;
+    }
+}
+
+@media(max-width: 768px) {
+    .content {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 70px;
+    }
+
+    .mainImage img {
+        width: 100%;
+    }
+
+    .extraImage img {
+        width: 130px;
+    }
+
+    .info h1 {
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+    }
+    
+    .info h2 {
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+    }
+    
+    .info p {
+        margin-bottom: 10px;
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .icons {
+        width: 50px;
+    }
+
+    .info p:nth-of-type(4) {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 740px) {
+    .extraImage img {
+        width: 110px;
+    }
+}
+
+@media(max-width: 620px) {
+    .extraImage img {
+        width: 100px;
+    }
+}
+
+@media(max-width: 560px) {
+    .extraImage img {
+        width: 90px;
+    }
+}
+
+@media(max-width: 540px) {
+    .content {
+        padding: 20px 40px;
+    }
+
+    .extraImage img {
+        width: 100px;
+    }
+
+    .info h1 {
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+    }
+    
+    .info h2 {
+        margin-bottom: 15px;
+        font-size: 1.1rem;
+    }
+    
+    .info p {
+        margin-bottom: 10px;
+        text-align: justify;
+        font-size: .9rem;
+    }
+
+    .icons {
+        width: 50px;
+    }
+
+    .info p:nth-of-type(4) {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 500px) {
+    .extraImage img {
+        width: 80px;
+    }
+}
+
+@media(max-width: 420px) {
+    .content {
+        gap: 10px;
+    }
+
+    .extraImage img {
+        width: 70px;
+    }
+}
+
+@media(max-width: 375px) {
+    .extraImage img {
+        width: 55px;
+    }
+}

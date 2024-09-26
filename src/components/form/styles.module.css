@@ -1,0 +1,96 @@
+.container_modal {
+    text-align: center;
+    min-width: 290px;
+}
+
+.container_modal h1 {
+    margin-bottom: 20px;
+}
+
+.container_modal input, textarea, select {
+    width: 100%;
+    height: 35px;
+    border: 0;
+    border: 1px solid #424242;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.container_modal textarea {
+    resize: none;
+    height: 100px;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.container_modal button {
+    padding: 10px 50px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container_modal button:first-child {
+    border: 0;
+    background-color: #229799;
+    color: #fff;
+}
+
+.container_modal button:last-child {
+    border: 0;
+    border: 1px solid #229799;
+    background-color: #fff;
+    color: #229799;
+}
+
+select {
+    color: #8e8e8e;
+}
+
+select:disabled {
+    color: #8e8e8e;
+}
+
+option {
+    color: #000;
+}
+
+.erro {
+    font-size: .8rem;
+    color: #a53e30;
+    text-align: left;
+}
+
+.row p {
+    font-size: .8rem;
+    color: #a53e30;
+    text-align: left;
+}
+
+@media(max-width: 680px) {
+    .container_modal {
+        width: 80vw;
+    }
+}
+
+@media(max-width: 425px) {
+    .container_modal {
+        width: 50vw;
+    }
+
+    .buttons {
+        align-items: center;
+        justify-content: center;
+    }
+}

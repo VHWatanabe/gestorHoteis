@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+body, input, button, textarea, select {
+    font-family: "Inter", system-ui;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body.lightTheme {
+    background-color: #F5F5F5;
+    color: black;
+}
+
+body.darkTheme {
+    background-color: #292929;
+    color: white;
+}

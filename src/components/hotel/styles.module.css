@@ -1,0 +1,137 @@
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    user-select: none;
+    transition: transform .2s;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    max-height: 2.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.card p:nth-of-type(2) {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.avaliacao {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.avaliacao img {
+    width: 12px;
+    height: 12px;
+}
+
+@media(max-width: 980px) {
+    .card {
+        width: 350px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .avaliacao img {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media(max-width: 915px) {
+    .card {
+        width: 100%;
+    }
+
+    .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .avaliacao img {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media(max-width: 768px) {
+    .card {
+        width: 75vw;
+    }
+
+    .card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .avaliacao img {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media(max-width: 630px) {
+    .card {
+        width: 75vw;
+    }
+
+    .card img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .avaliacao img {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media(max-width: 540px) {
+    .card {
+        width: 80vw;
+    }
+
+    .card img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .avaliacao img {
+        width: 12px;
+        height: 12px;
+    }
+}
